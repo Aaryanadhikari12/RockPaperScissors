@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #1679AB;
+}
+.head{
+    /* border:2px solid black; */
+    color:white;
+    text-align: center;
+    margin-top:20px;
+    font-size: 1.2rem;
+    padding:10px;
+    width:70%;
+    margin-left:15%;
+    border-radius:30px;
+    background-color: #074173;
+    box-shadow: 4px 3px 20px #fff;
+}
+.game{
+    width:80%;
+    margin-left:10%;
+    margin-top:30px;
+    /* border:2px solid black; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #074173; */
+    border-radius:30px;
+}
+.container{
+    /* border:2px solid red; */
+    display: flex;
+    padding:20px;
+    margin:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color:#074173;
+    border-radius:30px;
+
+    box-shadow: 4px 3px 20px #fff;
+
+}
+.container:hover{
+    background-color:#1679AB
+}
+.container img{
+    width:200px;
+    height:200px;
+}
+.container span{
+    color:white;
+    font-size:1.9rem;
+}
+.result{
+   /* border: 2px solid red; */
+   text-align: center;
+   margin-top: 3%;
+   width:40vw;
+   margin-left: 30vw;
+   background-color:#074173;
+    border-radius:30px;
+    padding: 10px;
+    box-shadow: 4px 3px 20px #fff;
+
+}
+.result span{
+    font-size:2rem;
+    color:white;
+}
+#info-box{
+    /* border: 2px solid red; */
+   text-align: center;
+   margin-top: 3%;
+   width:40vw;
+   margin-left: 30vw;
+   background-color:#074173;
+    border-radius:30px;
+    padding: 10px;
+    visibility:hidden;
+    box-shadow: 4px 3px 20px #fff;
+  
+}
+#info-box span{
+    font-size:2rem;
+    color:white;
+}
+#scoreBox{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 3%;
+    width:40vw;
+    margin-left: 30vw;
+    background-color:#074173;
+     border-radius:30px;
+     padding: 10px;
+     box-shadow: 4px 3px 20px #fff;
+}
+#scoreBox span{
+    color:white;
+    font-size:2rem;
+}
+.score{
+    color:red;
+    font-size:2rem;
+    display: inline;
+}
