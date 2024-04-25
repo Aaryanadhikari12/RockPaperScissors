@@ -11,7 +11,6 @@ var user_s = 0;
 data.forEach((ele) => {
     ele.addEventListener('click', () => {
         clickId = ele.getAttribute('id');
-        console.log("Clicked", clickId);
         var U_choice = clickId;
         game(U_choice);
 
